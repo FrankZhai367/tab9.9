@@ -10,6 +10,7 @@
 ### How to start
 #### 服务端
 - pip3安装服务端依赖 (python)
+- 下载nxtmodel.h5, 放入next_word文件夹中 (https://drive.google.com/file/d/15oIB0NdB9uHHzeSEOLOnigDAycd7dgfo/view?usp=sharing)
 - 启动server，(server会，加载训练好的模型nxtmodel.h5，并根据请求返回预测结果)
 	 - export FLASK_APP=server
 	 - flask run （默认端口5000）
