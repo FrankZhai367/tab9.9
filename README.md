@@ -2,10 +2,10 @@
 
 这个插件为vscode提供了自动补全的功能，通过训练数据，预测下一个要输入的字符串， 其中用到vscode的 `CompletionItemProvider` api.
 
-![例子](demo.gif)
+![例子](demo1.gif)
 
 ### LSTM 预测模型
-![LSTM模型](next_word/model.png)
+![LSTM模型](model.png)
 
 ### How to start
 #### 服务端
